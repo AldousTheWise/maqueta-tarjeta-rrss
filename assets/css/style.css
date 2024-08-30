@@ -67,7 +67,7 @@ body {
   padding: 10px;
   border-radius: 10px;
   background-color: hsl(0, 0%, 20%);
-   & :active{
+   & :hover{
           background-color: hsl(75, 94%, 57%);
           color: hsl(0, 0%, 8%);
       }
