@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+.card,
+.card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: "inter";
+  font-size: 14px;
+  height: 100vh;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 12%);
+  text-align: center;
+  font-weight: 400;
+  padding: 20px;
+  gap: 10px;
+}
+
+.card-header {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.card-header > img {
+  width: 30%;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+
+#userName {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#userLocation {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+}
+
+#userDescription {
+  margin-top: 30px;
+}
+.card-body {
+  width: 100%;
+}
+
+#rrssList > li {
+  list-style-type: none;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 20%);
+}
+
+#rrssList > li > a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Puntos de quiebre de Bootstrap */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .card {
+    width: 70%;
+  }
+  .card-header > img {
+    width: 40%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .card {
+    width: 40%;
+  }
+  .card-header > img {
+    width: 35%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .card {
+    width: 30%;
+  }
+  .card-header > img {
+    width: 30%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .card {
+    width: 30%;
+  }
+  .card-header > img {
+    width: 25%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .card {
+    width: 25%;
+  }
+  .card-header > img {
+    width: 20%;
+  }
+}
