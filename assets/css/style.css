@@ -67,15 +67,15 @@ body {
   padding: 10px;
   border-radius: 10px;
   background-color: hsl(0, 0%, 20%);
+   & :active{
+          background-color: hsl(75, 94%, 57%);
+          color: hsl(0, 0%, 8%);
+      }
 }
 
 #rrssList > li > a {
   text-decoration: none;
   color: hsl(0, 0%, 100%);
-    & :active{
-          background-color: hsl(75, 94%, 57%);
-          color: hsl(0, 0%, 8%);
-      }
 }
 
 footer {
