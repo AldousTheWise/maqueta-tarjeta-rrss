@@ -49,7 +49,7 @@ $(function () {
     const socialLinks = $("<ul>").attr("id", "rrssList");
     const rrSS = user.rrSS[0];
     for (const key in rrSS) {
-      const li = $("<li>").attr("id", "rrssItem");
+      const li = $("<li>").addClass("rrssItems");
       const a = $("<a>").attr("href", rrSS[key]).text(key);
       li.append(a);
       socialLinks.append(li);
