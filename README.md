@@ -14,13 +14,13 @@ Este es un proyecto de una **tarjeta de perfil** con enlaces a redes sociales, d
 
 ## 📂 Estructura del Proyecto
 
+```bash
 social-links-profile-main/ 
                        │── index.html # Página principal 
                        │── styles.css # Estilos del perfil 
                        │── images/ # Imágenes y avatar 
                        │── README.md # Archivo de documentación
-
-
+```
 ## 🎯 Características
 
 ✅ **Diseño limpio y elegante** inspirado en tarjetas digitales.  
