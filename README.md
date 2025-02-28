@@ -1,6 +1,6 @@
 # 🔗 Social Links Profile
 
-Este es un proyecto de una **tarjeta de perfil** con enlaces a redes sociales, diseñada con un estilo minimalista y responsivo tomado de FrontEndMentor. Ideal para usar como **landing page personal** o como **firma digital**. 🚀  
+Este es un proyecto de una **tarjeta de perfil** con enlaces a redes sociales, diseñada con un estilo minimalista y responsivo tomado de **FrontEndMentor**. Ideal para usar como **landing page personal** o como **firma digital**. 🚀  
 
 ## 🎨 Vista Previa
 
