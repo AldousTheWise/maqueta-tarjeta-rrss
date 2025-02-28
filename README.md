@@ -16,10 +16,10 @@ Este es un proyecto de una **tarjeta de perfil** con enlaces a redes sociales, d
 
 ```bash
 social-links-profile-main/ 
-                       │── index.html # Página principal 
-                       │── styles.css # Estilos del perfil 
-                       │── images/ # Imágenes y avatar 
-                       │── README.md # Archivo de documentación
+│── index.html # Página principal 
+│── styles.css # Estilos del perfil 
+│── images/ # Imágenes y avatar 
+│── README.md # Archivo de documentación
 ```
 ## 🎯 Características
 
